@@ -188,7 +188,7 @@ export default function Welcome() {
                                         onMouseEnter={(e) => e.currentTarget.style.textShadow = '0 0 20px rgba(202,162,74,0.6)'}
                                         onMouseLeave={(e) => e.currentTarget.style.textShadow = '0 0 20px rgba(202,162,74,0.0)'}
                                     >
-                                        pr@amplisense.co.uk
+                                        contact@amplisense.co.uk
                                         <span className="absolute -bottom-1 left-0 w-full h-px bg-accent scale-x-0 group-hover/email:scale-x-100 transition-transform duration-300 origin-left" />
                                     </a>
                                 </p>
