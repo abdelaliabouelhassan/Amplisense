@@ -80,7 +80,7 @@ export default function Welcome() {
                             <img
                                 src="/images/logo.png"
                                 alt="Amplisense Logo"
-                                className={` h-80 mx-auto relative z-10 transition-all duration-500 ${isLogoHovered ? 'scale-110 rotate-12' : 'scale-100'
+                                className={` h-80 mx-auto rounded-full relative z-10 transition-all duration-500 ${isLogoHovered ? 'scale-110 rotate-12' : 'scale-100'
                                     }`}
                                 style={{ filter: 'drop-shadow(0 0 20px rgba(202,162,74,0.5))' }}
                             />
