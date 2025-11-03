@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title inertia>AmpliSense — Forensic Intelligence for Law and Media</title>
         <meta name="title" content="AmpliSense — Forensic Intelligence for Law and Media">
         <meta name="description" content="AmpliSense is a forensic intelligence practice operating at the intersection of law, finance, and investigative research. We assist legal teams and institutional clients in tracing, verifying, and communicating complex cross-border financial and reputational matters with precision and discretion.">
@@ -34,6 +37,17 @@
         <meta name="msapplication-TileColor" content="#caa24a">
         <link rel="canonical" href="https://amplisense.co.uk/">
 
+        <link rel="icon" href="/favicon.ico" sizes="any">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+
         @viteReactRefresh
         @vite(['resources/js/app.tsx', "resources/js/pages/{$page['component']}.tsx"])
         @inertiaHead
+    </head>
+    <body class="font-sans antialiased">
+        @inertia
+    </body>
+</html>

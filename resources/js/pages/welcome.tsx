@@ -4,6 +4,7 @@ import { AnimatedBackground } from "@/components/AnimatedBackground";
 import { GlowingText } from "@/components/GlowingText";
 import { RevealSection } from "@/components/RevealSection";
 import { useEffect, useState } from "react";
+import { Linkedin, Twitter, MessageCircle } from "lucide-react";
 
 export default function Welcome() {
     const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
@@ -178,7 +179,7 @@ export default function Welcome() {
                                 </h2>
                                 <div className="absolute -bottom-2 left-0 w-0 h-0.5 bg-accent transition-all duration-500 group-hover:w-full" />
                             </div>
-                            <div className="space-y-4 text-base md:text-lg">
+                            <div className="space-y-6 text-base md:text-lg">
                                 <p className="text-muted-foreground group/email hover:text-foreground transition-colors duration-300">
                                     <span className="text-accent font-medium">Email:</span>{" "}
                                     <a
@@ -192,6 +193,64 @@ export default function Welcome() {
                                         <span className="absolute -bottom-1 left-0 w-full h-px bg-accent scale-x-0 group-hover/email:scale-x-100 transition-transform duration-300 origin-left" />
                                     </a>
                                 </p>
+
+                                {/* Social Media Links */}
+                                <div className="space-y-3">
+                                    <p className="text-muted-foreground">
+                                        <span className="text-accent font-medium">Connect:</span>
+                                    </p>
+                                    <div className="flex flex-wrap gap-4 items-center">
+                                        <a
+                                            href="https://www.linkedin.com/in/charlespycraft"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="group/social flex items-center gap-2 text-muted-foreground hover:text-accent transition-all duration-300"
+                                        >
+                                            <div className="relative">
+                                                <Linkedin className="w-5 h-5 transition-transform duration-300 group-hover/social:scale-110" />
+                                                <div className="absolute inset-0 blur-md bg-accent/0 group-hover/social:bg-accent/50 transition-all duration-300 rounded-full" />
+                                            </div>
+                                            <span className="text-sm md:text-base hover:tracking-wider transition-all duration-300">
+                                                Charles Pycraft
+                                            </span>
+                                        </a>
+
+                                        <span className="text-accent/50">▸</span>
+
+                                        <a
+                                            href="https://x.com/amplisense0"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="group/social flex items-center gap-2 text-muted-foreground hover:text-accent transition-all duration-300"
+                                        >
+                                            <div className="relative">
+                                                <Twitter className="w-5 h-5 transition-transform duration-300 group-hover/social:scale-110" />
+                                                <div className="absolute inset-0 blur-md bg-accent/0 group-hover/social:bg-accent/50 transition-all duration-300 rounded-full" />
+                                            </div>
+                                            <span className="text-sm md:text-base hover:tracking-wider transition-all duration-300">
+                                                @amplisense0
+                                            </span>
+                                        </a>
+
+                                        <span className="text-accent/50">▸</span>
+
+                                        <a
+                                            href="https://wa.me/447967224385"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="group/social flex items-center gap-2 text-muted-foreground hover:text-accent transition-all duration-300"
+                                        >
+                                            <div className="relative">
+                                                <MessageCircle className="w-5 h-5 transition-transform duration-300 group-hover/social:scale-110" />
+                                                <div className="absolute inset-0 blur-md bg-accent/0 group-hover/social:bg-accent/50 transition-all duration-300 rounded-full" />
+                                            </div>
+                                            <span className="text-sm md:text-base hover:tracking-wider transition-all duration-300">
+                                                +44 7967 224 385
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+
                                 <p className="text-sm text-muted-foreground/70 italic flex items-center gap-2">
                                     <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
                                     Secure communication available upon request.
