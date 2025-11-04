@@ -22,9 +22,9 @@ export default function Welcome() {
         <>
             <Head>
                 {/* Primary Meta Tags */}
-                <title>Amplisense - Forensic Intelligence for Law and Media</title>
-                <meta name="title" content="Amplisense - Forensic Intelligence for Law and Media" />
-                <meta name="description" content="Amplisense is a forensic intelligence practice operating at the intersection of law, finance, and investigative research. We assist legal teams and institutional clients in tracing, verifying, and communicating complex cross-border financial and reputational matters with precision and discretion." />
+                <title>Amplisense - Forensic Intelligence for Law, Finance, and Investigative Research</title>
+                <meta name="title" content="Amplisense - Forensic Intelligence for Law, Finance, and Investigative Research" />
+                <meta name="description" content="Amplisense is a London-based forensic intelligence firm operating at the intersection of law, finance, and investigative research. We deliver clarity and precision in cross-border legal, financial, and reputational investigations." />
                 <meta name="keywords" content="forensic intelligence, legal analysis, financial intelligence, investigative research, due diligence, litigation support, compliance, cross-border investigations, document forensics, legal teams" />
                 <meta name="author" content="Amplisense" />
                 <meta name="robots" content="index, follow" />
@@ -34,8 +34,8 @@ export default function Welcome() {
                 {/* Open Graph / Facebook */}
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://amplisense.co.uk/" />
-                <meta property="og:title" content="Amplisense - Forensic Intelligence for Law and Media" />
-                <meta property="og:description" content="Forensic intelligence practice operating at the intersection of law, finance, and investigative research. Supporting legal teams with precision and discretion." />
+                <meta property="og:title" content="Amplisense - Forensic Intelligence for Law, Finance, and Investigative Research" />
+                <meta property="og:description" content="London-based forensic intelligence firm operating at the intersection of law, finance, and investigative research. We deliver clarity and precision in cross-border legal, financial, and reputational investigations." />
                 <meta property="og:image" content="https://amplisense.co.uk/images/logo.png" />
                 <meta property="og:site_name" content="Amplisense" />
                 <meta property="og:locale" content="en_GB" />
@@ -43,8 +43,8 @@ export default function Welcome() {
                 {/* Twitter */}
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="https://amplisense.co.uk/" />
-                <meta property="twitter:title" content="Amplisense - Forensic Intelligence for Law and Media" />
-                <meta property="twitter:description" content="Forensic intelligence practice operating at the intersection of law, finance, and investigative research. Supporting legal teams with precision and discretion." />
+                <meta property="twitter:title" content="Amplisense - Forensic Intelligence for Law, Finance, and Investigative Research" />
+                <meta property="twitter:description" content="London-based forensic intelligence firm operating at the intersection of law, finance, and investigative research. We deliver clarity and precision in cross-border legal, financial, and reputational investigations." />
                 <meta property="twitter:image" content="https://amplisense.co.uk/images/logo.png" />
 
                 {/* Additional Meta Tags */}
@@ -86,11 +86,14 @@ export default function Welcome() {
                                 style={{ filter: 'drop-shadow(0 0 20px rgba(202,162,74,0.5))' }}
                             />
                         </div>
-                        <h1 className="text-2xl md:text-3xl font-heading font-semibold tracking-wide">
+                        <h1 className="text-2xl md:text-3xl font-heading font-semibold tracking-wide mb-4">
                             <GlowingText intensity="high">
-                                Forensic Intelligence for Law and Media
+                                Forensic Intelligence for Law, Finance, and Investigative Research
                             </GlowingText>
                         </h1>
+                        <p className="text-base md:text-lg text-muted-foreground/90 max-w-3xl mx-auto leading-relaxed">
+                            Amplisense operates at the intersection of law, finance, and investigative research, turning complex data into clarity and clarity into actionable intelligence.
+                        </p>
                     </header>
 
                     <div className="relative mb-16 md:mb-20">
@@ -102,24 +105,24 @@ export default function Welcome() {
                     <RevealSection>
                         <section className="space-y-6 mb-16 md:mb-20">
                             <p className="text-base md:text-lg leading-relaxed text-muted-foreground hover:text-foreground transition-colors duration-300">
-                                Amplisense is a forensic intelligence practice operating at the intersection of law, finance, and investigative research.
-                                We assist legal teams, investigative partners, and institutional clients in tracing, verifying, and communicating complex cross-border financial and reputational matters with precision and discretion.
+                                Amplisense is a forensic intelligence practice specialising in the tracing, verification, and analysis of complex cross-border financial and reputational matters.
+                                We assist legal teams, institutional clients, and investigative partners in transforming fragmented evidence into coherent narratives that withstand regulatory, judicial, and public scrutiny.
                             </p>
 
                             <p className="text-base md:text-lg leading-relaxed text-muted-foreground hover:text-foreground transition-colors duration-300">
-                                Our work integrates document forensics, analytical synthesis, and narrative structure to support litigation, compliance, and regulatory alignment across multiple jurisdictions.
-                                Through collaborations with journalists, analysts, and legal professionals, Amplisense contributes to transparent, accountable outcomes grounded in verified data.
+                                Our work integrates document forensics, financial analysis, and narrative synthesis to support litigation, compliance, and multi-jurisdictional investigations.
+                                Through strategic collaboration with lawyers, analysts, and researchers, Amplisense contributes to transparent, accountable outcomes grounded in verified data.
                             </p>
 
                             <p className="text-base md:text-lg leading-relaxed text-muted-foreground hover:text-foreground transition-colors duration-300">
-                                Whether the objective is case recovery, due diligence, or institutional reporting, Amplisense provides calm, evidence-led clarity in environments where truth and integrity are non-negotiable.
+                                Whether the objective is asset recovery, due diligence, or institutional reporting, Amplisense provides calm, evidence-led clarity in environments where truth and integrity are non-negotiable.
                             </p>
 
                             <div className="relative pt-12 text-center">
                                 <div className="absolute inset-0 flex items-center justify-center">
                                     <div className="w-full h-px bg-gradient-to-r from-transparent via-accent/50 to-transparent" />
                                 </div>
-                                <div className="relative bg-background px-8 inline-block">
+                                <div className="relative bg-background rounded-lg p-8 inline-block">
                                     <p className="text-xl md:text-2xl font-heading font-semibold tracking-[0.3em]">
                                         <GlowingText intensity="high">
                                             <span className="inline-block hover:scale-110 transition-transform duration-300">Truth</span>
@@ -153,13 +156,12 @@ export default function Welcome() {
                             </div>
                             <div className="space-y-6 text-base md:text-lg leading-relaxed">
                                 <p className="text-muted-foreground hover:text-foreground transition-colors duration-300 border-l-2 border-accent/30 pl-6 hover:border-accent">
-                                    Founded by Charles Pycraft, an investigative journalist and strategic analyst, Amplisense bridges the fields of financial intelligence, legal analysis, and responsible disclosure.
-                                    The practice supports attorneys, researchers, and investigative collaborators in transforming complex documentation into coherent, actionable intelligence.
+                                    Founded by Charles Pycraft, an investigative journalist and strategic analyst, Amplisense bridges the disciplines of financial intelligence, legal analysis, and responsible disclosure.
+                                    The practice supports attorneys, researchers, and investigative collaborators in transforming complex documentation into defensible, actionable intelligence.
                                 </p>
 
                                 <p className="text-muted-foreground hover:text-foreground transition-colors duration-300 border-l-2 border-accent/30 pl-6 hover:border-accent">
-                                    Amplisense maintains absolute confidentiality and ensures that verified information is interpreted and presented with accuracy, restraint, and purpose.
-                                    Our objective is to provide clarity, assisting decision-makers in identifying what is true, relevant, and defensible.
+                                    Amplisense maintains absolute confidentiality and ensures that verified information is interpreted and presented with accuracy, restraint, and purpose, providing clarity to decision-makers in identifying what is true, relevant, and provable.
                                 </p>
                             </div>
                         </section>
