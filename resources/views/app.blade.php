@@ -6,8 +6,8 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title inertia>AmpliSense — Forensic Intelligence for Law and Media</title>
+        <title>Amplisense - Forensic Intelligence for Law, Finance, and Investigative Research</title> 
+        {{-- <title inertia>Amplisense - Forensic Intelligence for Law, Finance, and Investigative Research</title> --}}
         <meta name="title" content="AmpliSense — Forensic Intelligence for Law, Finance, and Investigative Research">
         <meta name="description" content="AmpliSense is a forensic intelligence practice operating at the intersection of law, finance, and investigative research. We assist legal teams and institutional clients in tracing, verifying, and communicating complex cross-border financial and reputational matters with precision and discretion.">
         <meta name="keywords" content="forensic intelligence, legal analysis, financial intelligence, investigative research, due diligence, litigation support, compliance, cross-border investigations, document forensics, legal teams">
@@ -19,7 +19,7 @@
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://amplisense.co.uk/">
-        <meta property="og:title" content="AmpliSense — Forensic Intelligence for Law and Media">
+        <meta property="og:title" content="Amplisense - Forensic Intelligence for Law, Finance, and Investigative Research">
         <meta property="og:description" content="Amplisense is a London-based forensic intelligence firm operating at the intersection of law, finance, and investigative research. We deliver clarity and precision in cross-border legal, financial, and reputational investigations.">
         <meta property="og:image" content="https://amplisense.co.uk/images/logo.png">
         <meta property="og:site_name" content="AmpliSense">
@@ -28,7 +28,7 @@
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://amplisense.co.uk/">
-        <meta property="twitter:title" content="AmpliSense — Forensic Intelligence for Law and Media">
+        <meta property="twitter:title" content="Amplisense - Forensic Intelligence for Law, Finance, and Investigative Research">
         <meta property="twitter:description" content="Amplisense is a London-based forensic intelligence firm operating at the intersection of law, finance, and investigative research. We deliver clarity and precision in cross-border legal, financial, and reputational investigations.">
         <meta property="twitter:image" content="https://amplisense.co.uk/images/logo.png">
 
