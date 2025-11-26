@@ -185,7 +185,7 @@ export default function Welcome() {
                                 <p className="text-muted-foreground group/email hover:text-foreground transition-colors duration-300">
                                     <span className="text-accent font-medium">Email:</span>{" "}
                                     <a
-                                        href="mailto:pr@amplisense.co.uk"
+                                        href="mailto:contact@amplisense.co.uk"
                                         className="relative inline-block hover:text-accent transition-all duration-300 group-hover/email:tracking-wider"
                                         style={{ textShadow: '0 0 20px rgba(202,162,74,0.0)' }}
                                         onMouseEnter={(e) => e.currentTarget.style.textShadow = '0 0 20px rgba(202,162,74,0.6)'}
